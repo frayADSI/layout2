@@ -15,6 +15,7 @@ i {
     bottom: 0;
     background-color: rgba(21, 28, 48, 1.0);
     max-width: 20%;
+    overflow: scroll;
 }
 .aside img {
     max-width: 90%;
@@ -248,6 +249,9 @@ video {
     .main-content {
         margin-left: 23%;
     }
+    .comment-input input {
+        font-size: 0.6em;
+    }
 
 }
 
@@ -285,6 +289,7 @@ video {
         justify-content: start;
         max-width: 80%;
     }
+    
 }
 
 @media screen and (max-width: 500px) {
